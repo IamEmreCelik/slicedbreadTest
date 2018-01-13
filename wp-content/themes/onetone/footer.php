@@ -34,7 +34,7 @@
         
         <?php
                       if( is_home() || is_front_page()){
-                        printf(__('Designed by <a href="%s">MageeWP Themes</a>.','onetone'),esc_url('https://www.mageewp.com/'));
+                        printf(__('Designed by <a href="%s">Emre Çelik</a> for Slicedbread.agency.','onetone'),esc_url('https://www.celikemre.com/'));
                       }else{
 						 printf(__('Designed by MageeWP Themes.','onetone')); 
 						  }
